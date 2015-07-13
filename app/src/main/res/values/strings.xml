@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alunap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_restaurante_list">Items</string>
+    <string name="title_restaurante_detail">Restaurante Detail</string>
+    <string name="title_activity_restaurante">Restaurante</string>
+    <string name="title_activity_mancaruri">Mancaruri</string>
+</resources>
