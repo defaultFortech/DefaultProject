@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.muresan.alunap" >
+    package="com.example.muresan.defaultproject" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".Main"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,12 +17,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Restaurante"
-            android:label="@string/title_activity_restaurante" >
+            android:name=".Mancare"
+            android:label="@string/title_activity_mancare" >
         </activity>
         <activity
-            android:name=".Mancaruri"
-            android:label="@string/title_activity_mancaruri" >
+            android:name=".Bautura"
+            android:label="@string/title_activity_bautura" >
+        </activity>
+        <activity
+            android:name=".BestOfMancare"
+            android:label="@string/title_activity_best_of_mancare" >
+        </activity>
+        <activity
+            android:name=".BestOfBautura"
+            android:label="@string/title_activity_best_of_bautura" >
         </activity>
     </application>
 
