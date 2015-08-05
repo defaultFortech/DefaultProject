@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
     public void onClickBautura(View view) {
-        Intent i = new Intent(this, Bautura.class);
+        Intent i = new Intent(this, BauturiActivity.class);
         startActivity(i);
 
     }
@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void onClickBestBautura(View view) {
-        Intent i = new Intent(this, BestOfBautura.class);
+        Intent i = new Intent(this, BestOfBauturiActivity.class);
         startActivity(i);
 
     }

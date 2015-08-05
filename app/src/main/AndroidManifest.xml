@@ -21,7 +21,7 @@
             android:label="@string/title_activity_mancare" >
         </activity>
         <activity
-            android:name=".Bautura"
+            android:name=".BauturiActivity"
             android:label="@string/title_activity_bautura" >
         </activity>
         <activity
@@ -29,7 +29,7 @@
             android:label="@string/title_activity_best_of_mancare" >
         </activity>
         <activity
-            android:name=".BestOfBautura"
+            android:name=".BestOfBauturiActivity"
             android:label="@string/title_activity_best_of_bautura" >
         </activity>
     </application>

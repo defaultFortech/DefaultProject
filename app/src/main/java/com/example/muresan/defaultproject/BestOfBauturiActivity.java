@@ -1,4 +1,4 @@
-package com.example.muresan.alunap;
+package com.example.muresan.defaultproject;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -8,15 +8,14 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class Restaurante extends ActionBarActivity {
+public class BestOfBauturiActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurante);
-    }
-    public void onClick(View view) {
-        Intent i = new Intent(this, Main.class);
+        setContentView(R.layout.activity_best_of_bautura);
+    }public void onClick(View view) {
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
 
     }
@@ -24,7 +23,7 @@ public class Restaurante extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_restaurante, menu);
+        getMenuInflater().inflate(R.menu.menu_best_of_bautura, menu);
         return true;
     }
 
